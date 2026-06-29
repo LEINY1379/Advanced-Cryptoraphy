@@ -1,0 +1,46 @@
+	+
+    œM&j×  ã            	       óð   €  ! R  R4      t ] ! ^µ^ ^.R7      t]P                  ^24      t]! R] 24       ]! RRP
+                  ]! ] ]4      4       24       ]P                  4       w  t	t
+]! R]	 R ]
+ R24       R	# )
+c                   ó<   a € ] tR t^t o R tR tR tR R lt RtV t	R# )ÚLFSRc                ó8   € Wn         W n        ^ V n        Wn        R# )zo
+seed: initial state (integer)
+taps: list of bit positions to XOR (e.g., [0, 2] for S_n = S_{n-1} XOR S_{n-3})
+N)ÚstateÚtapsÚperiodÚ
+initial_state)ÚselfÚseedr   s   &&&Ú(/home/Bajber/cryptography/week 4/lfsr.pyÚ__init__Ú
+LFSR.__init__   s   € ð
+ Œ
+ØŒ	ØˆŒ
+Ø!Öó    c                ó  € ^ pV P                    F#  pWP                  V,	          ^,          ,          pK%  	  V P                  ^,          V,           V n        V ;P                  ^ÿ,          un        V ;P                  ^,
+          un        V# )é    )r   r   r    )r	   Ú new_bitÚtaps   &  r
+   ÚstepÚ	LFSR.step   sb   € àˆ Ø—9”9ˆCØŸ
+™
+ cÕ)¨QÕ.Õ.ŠGñ ð —j‘j A•o¨Õ0ˆŒ
+Ø
+Š
+dÕ
+Ø
+Š
+qÕ
+àˆr   c                ó\   € \        V4       Uu. uF  q P                  4       NK  	  up# u upi )N)Úranger   )r	   Ún_bitsÚ_s   && r
+   ÚgenerateÚ
+LFSR.generate   s"   € Ü%*¨6¤]Ó3¡] —	‘	–
+¡]Ñ3Ð3ùÒ3s   Ž)c                óÜ   € / pV P                   V n        ^ V n        \         V4       FB  pV P                  pWB9   d   W2V,          ,
+          W$,          3u # W2V&   V P	                  4        KD  	  R# )r   )NN)r   r   r    r   r   )r	   Ú	max_stepsÚseenÚiÚ	state_keys   &&   r
+   Ú
+detect_periodÚLFSR.detect_period   se   € ØˆØ×'Ñ'ˆŒ
+ØˆŒ
+äyÖ!ˆAØŸ
+™
+ˆIØÔ Ø 	?Õ*¨D­OÐ;Ò;Ø‰OØI‰IŽKñ
+ "ð Ðr   )r   r    r   r   N)iè  )
+Ú__name__Ú
+__module__Ú__qualname__Ú__firstlineno__r   r   r   r    Ú__static_attributes__Ú__classdictcell__)Ú
+__classdict__s   @r
+   r   r      s   ø‡ € ò"ò
+ò4÷ò r   r   )r
+   r   zGenerated bits: zBit string: Ú zPeriod detected: z (starts repeating at step Ú)N)
+r   Úlfsrr   ÚbitsÚprintÚjoinÚmapÚstrr    r    Ústart© r   r
+   Ú<module>r3      sŠ   ð÷'ñ 'ñT  1 a &Ô )€Ø 
+‡}}RÓ €Ù Ð˜˜ÐÔ  Ù ˆR—W‘W™S  d›^Ó,Ð-Ð.Ô /à×"Ñ"Ó$
+€ˆÙ Ð˜&˜Ð!<¸U¸GÀ1ÐEÖ Fr   
