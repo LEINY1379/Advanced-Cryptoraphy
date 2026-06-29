@@ -1,0 +1,74 @@
++
+    lO&jé   ã                   ó  € R  t RR ltRR ltRR ltR tR tRt]! ]^R 7      t Rt]! ]4      t	]
+! R	] 24       ]
+! R
+]
+! ]	4       24       ]! ]	] 4      t]
+! R
+]
+! ]4       24       ]! ]] 4      t
+]! ]
+4      t]
+! R] 24       R
+# )c                óH   € W,          R,          R,          pTpW,          pWE3# )zOne round of Feistel networki™y‚Zì   ÿÿ © )ÚleftÚrightÚ	round_keyÚf_outputÚnew_leftÚ	new_rights   &&&   Ú+/home/Bajber/cryptography/week 5/feistel.pyÚ
+feistel_roundr      s+   € ð Õ" jÕ0°JÕ>€HØ€HØ•€IØ
+Ð
+Ðó    c                 ó®   € V ^ ,	          R,          pV R,          p\        V4       F  p\        W4W,          4      w  r4K  	  V^ ,          V,           R,          # )z_
+Encrypt a 64-bit block using Feistel structure
+block: 64-bit integer
+keys: list of round keys
+r   ì   ÿÿÿÿ ©Úranger   ©ÚblockÚkeysÚroundsr   r   Úis   &&&   r
+   Úfeistel_encryptr   	   sS   € ð 
+RK˜:Õ
+%€DØJÕ€Eä
+6Ž]ˆÜ# D°µÓ9‰
+ˆ‰eñ ð b[˜DÕ Ð$6Õ
+6Ð6r
+   c                 óÀ   € V ^ ,	          R,          pV R,          p\        V^,
+          RR4       F  p\        W4W,          4      w  r4K  	  V^ ,          V,           R,          # )z"Decrypt by reversing the key orderr   r   éÿÿÿÿr   r   s   &&&   r
+   Úfeistel_decryptr      sZ   € àRK˜:Õ
+%€DØJÕ€Eä
+6˜A•:˜r 2Ö
+&ˆÜ# D°µÓ9‰
+ˆ‰eñ 'ð b[˜DÕ Ð$6Õ
+6Ð6r
+   c                 óˆ   € . p\        V4       F0  pVP                  V RV^,           ,          ,          R,          4       K2  	  V# )z#Generate round keys from master keyi¡ëÙnr   )r   Úappend)Ú
+master_keyr   r   r   s   &&  r
+   Ú
+generate_keysr   "   s9   € à
+
+€DÜ
+6Ž]ˆØ
+‰
+Z :°°QµÕ#7Õ8¸JÕFÖGñ à
+€Kr
+   c                óŽ   € ^ p\        V R,          4       F,  w  r#V\        V4      ^^ V,
+          ,          ,          ,          pK.  	  V# )z%Convert 8-char string to 64-bit block:Né   N)Ú	enumerateÚord)Útextr   r   Úchars   &   r
+   Ú
+text_to_blockr%   )   s<   € à
+€EÜ˜T "XÖ&‰ ˆØ
+”#d“)  Q¨¥U¥
+Õ,Õ-Šñ 'à
+€Lr
+   c                óŠ   € Rp\        ^4       F1  pV\        V ^^ V,
+          ,          ,	          ^ÿ,          4      ,
+          pK3  	  V# )zConvert 64-bit block to stringÚ )r   Úchr)r   r#   r   s   &  r
+   Ú
+block_to_textr)   0   s;   € à
+
+€DÜ
+1ŽXˆØ”U˜q A¨¥E{Õ+¨tÕ3Ó4Õ4Šñ à
+€Kr
+   ixV4)r   zBIT4138!z
+Plaintext: z Block: z
+Encrypted: z
+Decrypted: N)é   )r   r   r   r   r%   r)   r   r   Ú	plaintextr   ÚprintÚhexÚ	encryptedÚ	decryptedÚdecrypted_textr   r
+   r
+   Ú<module>r1      s­   ðòô
+7ô7ôòòð €
+Ù Z¨Ô +€à€	ÙiÓ €Ù ˆ
+I;ÐÔ  Ù ˆ ‘E“
+ˆ|ÐÔ á˜E 4Ó(€	Ù ˆ
+‘C˜	“NÐ#Ð$Ô %á˜I tÓ,€	Ù˜yÓ)€Ù ˆ
+NÐ#Ð$Ö %r
+   
